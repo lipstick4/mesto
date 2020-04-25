@@ -1,0 +1,9 @@
+.profile__name{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 430px) {
+    .profile__name {
+        justify-content: center;
+    }
+  } 

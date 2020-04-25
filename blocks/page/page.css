@@ -1,0 +1,38 @@
+.page{
+    min-width: 100%;
+    min-height: 100%;
+    background-color:#000000;
+    background-size: 100%;
+    font-family:'Inter','Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    margin: 0;
+    padding: 45px 199px 60px;
+    box-sizing: border-box;
+}
+input, button {
+  border: none;
+}
+
+@media screen and (max-width: 1140px) {
+    .page {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+
+  @media screen and (max-width: 950px) {
+    .page {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  } 
+
+  @media screen and (max-width: 585px) {
+    .page {
+      padding:28px 19px 36px;
+    }
+  } 
