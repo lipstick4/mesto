@@ -15,3 +15,10 @@
       padding: 24px 26px 26px;
     }
   }
+
+  @media screen and (max-width: 430px) {
+    .popup__container {
+      width: 85%;
+      padding: 24px 26px 26px;
+    }
+  } 

@@ -12,9 +12,15 @@
     top:-52px;
     left: 420px;
     padding: 0;
+    outline:none;
 }
 .popup__btn-close:hover{
     opacity: 0.6;
     transition: linear 0.2s;
 }
 
+@media screen and (max-width: 500px) {
+    .popup__btn-close {
+        left: 97%;
+    }
+  }

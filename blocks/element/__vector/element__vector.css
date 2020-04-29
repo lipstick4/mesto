@@ -1,6 +1,12 @@
 .element__vector{
+    background: url(../../../images/vector.svg);
+    cursor: pointer;
     width: 20.76px;
     height: 18.13px;
-    border: 1px solid #000000;
     border: none;
+    transition: linear 0.2s;
+}
+.element__vector:hover{
+    opacity: 0.6;
+    transition: linear 0.2s;
 }

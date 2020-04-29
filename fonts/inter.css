@@ -31,6 +31,15 @@
   src: url("Inter-ExtraLightItalic.woff2?v=3.12") format("woff2"),
        url("Inter-ExtraLightItalic.woff?v=3.12") format("woff");
 }
+/* -------------------------------------------------------
+Variable font.
+Usage:
+
+  html { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+  }
+*/
 
 @font-face {
   font-family: 'Inter';
@@ -150,16 +159,6 @@
   src: url("Inter-BlackItalic.woff2?v=3.12") format("woff2"),
        url("Inter-BlackItalic.woff?v=3.12") format("woff");
 }
-
-/* -------------------------------------------------------
-Variable font.
-Usage:
-
-  html { font-family: 'Inter', sans-serif; }
-  @supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
-  }
-*/
 @font-face {
   font-family: 'Inter var';
   font-weight: 100 900;

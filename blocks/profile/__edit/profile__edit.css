@@ -8,6 +8,7 @@
     margin-top: 17px;
     margin-right: 0;
     transition: linear 0.2s;
+    outline:none;
 }
 .profile__edit:hover{
     background-color: #000000;
