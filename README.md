@@ -9,4 +9,4 @@
 
 Страница адаптирована под различные устройста (минимум 320px), карточки мест спозиционироаны с помощью grid и их число в строке зависит от расширения экрана.
 
-Ссылка на Github Pages https://github.com/lipstick4/mesto.git
+Ссылка на Github Pages https://lipstick4.github.io/mesto/index.html
