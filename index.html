@@ -25,57 +25,41 @@
           <button type="button" aria-label="добавить" class="profile__add-button"></button>
         </section>
         <section class="elements">
-          <div class="element">
-            <img src="./images/element1.jpg" class="element__image" alt="Древний храм в горах">
-            <div class="element__group">
-              <h2 class="element__title">Карачаевск</h2>
-              <button type="button" class="element__vector"></button>
-            </div>
-          </div>
-          <div class="element">
-            <img src="./images/element2.jpg" class="element__image" alt="Вид на Эльбрус на закате">
-            <div class="element__group">
-              <h2 class="element__title">Гора Эльбрус</h2>
-              <button type="button" class="element__vector"></button>
-            </div>
-          </div>
-          <div class="element">
-            <img src="./images/element3.jpg" class="element__image" alt="Заснеженные горы, на переднем плане лес">
-            <div class="element__group">
-              <h2 class="element__title">Домбай</h2>
-              <button type="button" class="element__vector"></button>
-            </div>
-          </div>
-          <div class="element">
-            <img src="./images/element2.jpg" class="element__image" alt="Вид на Эльбрус на закате">
-            <div class="element__group">
-              <h2 class="element__title">Гора Эльбрус</h2>
-              <button type="button" class="element__vector"></button>
-            </div>
-          </div>
-          <div class="element">
-            <img src="./images/element3.jpg" class="element__image" alt="Заснеженные горы, на переднем плане лес">
-            <div class="element__group">
-              <h2 class="element__title">Домбай</h2>
-              <button type="button" class="element__vector"></button>
-            </div>
-          </div>
-          <div class="element">
-            <img src="./images/element1.jpg" class="element__image" alt="Древний храм в горах">
-            <div class="element__group">
-              <h2 class="element__title">Карачаевск</h2>
-              <button type="button" class="element__vector"></button>
-            </div>
-          </div>
+          <template id="card">
+            <div class="element">
+              <button type="submit" class="element__trash"></button>
+              <img src="" class="element__image" alt="">
+              <div class="element__group">
+                <h2 class="element__title"></h2>
+                <button type="submit" class="element__vector"></button>
+              </div>
+            </div>  
+           </template>
         </section>
-        <section class="popup">
-          <form name="popup" method="get" action="#" class="popup__container">
-            <button type="button" aria-label="закрыть" class="popup__btn-close"></button>
+        <section class="popup popup_edit">
+          <form name="popup" method="get" action="#" class="popup__container popup_container_profile ">
+            <button type="button" aria-label="закрыть" class="popup__btn-close popup__btn-close_edit"></button>
             <h2 class="popup__title">Редактировать профиль</h2>
-            <input type="text" name="name" required placeholder="имя" class="popup__text popup__text_type_name">
-            <input type="text" name="job" required placeholder="о себе" class="popup__text popup__text_type_job">
-            <button type="submit" class="popup__btn-save">Сохранить</button>
+            <input type="text" name="name" required placeholder="Имя" class="popup__text popup__text_type_name ">
+            <input type="text" name="job" required placeholder="Описание" class="popup__text popup__text_type_job ">
+            <button type="submit" class="popup__btn-save popup__btn-save_profile">Сохранить</button>
           </form>
+        </section>
+        <section class="popup popup_add">
+          <form name="popup" method="get" action="#" class="popup__container popup_container_add">
+            <button type="button" aria-label="закрыть" class="popup__btn-close popup__btn-close_add"></button>
+            <h2 class="popup__title">Новое место</h2>
+            <input type="text" name="name" required placeholder="Название" class="popup__text popup__text_type_title">
+            <input type="text" name="link" required placeholder="Ссылка на картинку" class="popup__text popup__text_type_link">
+            <button type="submit" class="popup__btn-save popup__btn-save_add">Создать</button>
+          </form>
+        </section>
+        <section class="popup popup_img">
+         <figure class="popup__img-container"> 
+          <button type="button" aria-label="закрыть" class="popup__btn-close popup__btn-close_img"></button>
+          <img src="" alt=""  class="popup__big-image">
+          <figcaption class="popup__figcaption"></figcaption>
+        </figure> 
         </section>
       </main>
       <footer class="footer">

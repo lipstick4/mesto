@@ -1,8 +1,8 @@
 .popup__btn-close{
     background: url(../../../images/Close.svg);
     cursor: pointer;
-    height: 40.7px;
-    width: 40.7px;
+    height: 40px;
+    width: 40px;
     border: none;
     box-sizing: border-box;
     background-size: 100%;
@@ -10,7 +10,7 @@
     margin-top: 20px;
     position: absolute;
     top:-52px;
-    left: 420px;
+    right: -35px;
     padding: 0;
     outline:none;
 }
